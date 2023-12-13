@@ -1,0 +1,13 @@
+[package]
+name = "rubbermail"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.75"
+axum = "0.6.20"
+tokio = { version = "1.29.1", features = ["full"] }
+tracing = "0.1.40"
+tracing-subscriber = "0.3.18"
